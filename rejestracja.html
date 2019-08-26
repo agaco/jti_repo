@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<!-- <base href="/"> -->
+		<title>Strefa konsumencka | Rejestracja</title>
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- Template Basic Images Start -->
+		<meta property="og:image" content="path/to/image.jpg">
+		<link rel="icon" href="img/favicon/favicon.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+		<!-- Template Basic Images End -->
+		<!-- Custom Browsers Color Start -->
+		<meta name="theme-color" content="#000">
+		<!-- Custom Browsers Color End -->
+		<link rel="stylesheet" href="css/main.min.css">
+	</head>
+	<body>
+		<!-- Custom HTML -->
+		<div class="register">
+			<header class="site-header gradient-register">
+				<h1 class="page-title">
+				Wypełnij formularz
+				</h1>
+			</header>
+			<form action="/Letscamel/Save" id="enrollForm" method="post" class="form">
+				<div class="site-section">
+					<div class="site-section__layer">
+						<div class="site-section__wrapper">
+							<div class="site-section__inner">
+								<input id="GuidZapraszajacego" name="GuidZapraszajacego" type="hidden" value="6b44eb01-731e-41cc-b866-aa22013b144b"><input id="tmpMarkaPalona" name="TmpMarkaPalona" type="hidden" value=""><input id="tmpWariant" name="TmpWariant" type="hidden" value=""><input id="tmpFormat" name="TmpFormat" type="hidden" value="">
+								<div class="form__row">
+									<!-- Imie -->
+									<div class="form__row-item">
+										<div class="form__field-container">
+											<label class="form-field">
+												<div class="form-field__wrapper">
+													<div class="form-field__inner">
+														<header class="form-field__header">
+															<h4 class="form-field__title">
+															Imię *
+															</h4>
+														</header>
+														<input autocomplete="off" class="form-field__core field-error" data-val="true" data-val-required="Podaj imię" id="Imie" name="Imie" type="text" value="">
+														<span class="field-validation-error validationMsg" data-valmsg-for="Imie" data-valmsg-replace="true">Podaj imię</span>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+									<!-- Form field -->
+									<div class="form__row-item">
+										<div class="form__field-container">
+											<label class="form-field">
+												<div class="form-field__wrapper">
+													<div class="form-field__inner">
+														<header class="form-field__header">
+															<h4 class="form-field__title">
+															Nazwisko *
+															</h4>
+														</header>
+														<input autocomplete="off" class="form-field__core" data-val="true" data-val-required="Podaj nazwisko" id="Nazwisko" name="Nazwisko" type="text" value="">
+														<span class="field-validation-error validationMsg" data-valmsg-for="Nazwisko" data-valmsg-replace="true">Podaj nazwisko</span>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form__row">
+									<!-- Data urodzenia -->
+									<div class="form__row-item">
+										<div class="form__field-container">
+											<label class="form-field">
+												<div class="form-field__wrapper">
+													<div class="form-field__inner">
+														<header class="form-field__header">
+															<h4 class="form-field__title">
+															Data urodzenia *
+															</h4>
+														</header>
+														<input autocomplete="off" class="form-field__core" data-val="true" data-val-required="Podaj imię" id="Imie" name="Imie" type="text" value="">
+														<span class="field-validation-error validationMsg" data-valmsg-for="DataUrodzenia" data-valmsg-replace="true">Podaj datę urodzenia</span>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+									<!-- Płeć -->
+									<div class="form__row-item">
+										<div class="form__field-container">
+											<label class="form-field">
+												<div class="form-field__wrapper">
+													<div class="form-field__inner">
+														<header class="form-field__header">
+															<h4 class="form-field__title">
+															Płeć *
+															</h4>
+														</header>
+														<select autocomplete="off" class="form-field__core" data-val="true" data-val-required="Podaj płeć" id="Plec" name="Plec">
+															<option selected="selected" value="">WYBIERZ</option>
+															<option value="KOBIETA">KOBIETA</option>
+															<option value="MĘŻCZYZNA">MĘŻCZYZNA</option>
+														</select>
+														<span class="field-validation-error validationMsg" data-valmsg-for="Plec" data-valmsg-replace="true">Podaj płeć</span>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form__row">
+									<!-- E-mail -->
+									<div class="form__row-item">
+										<div class="form__field-container">
+											<label class="form-field">
+												<div class="form-field__wrapper">
+													<div class="form-field__inner">
+														<header class="form-field__header">
+															<h4 class="form-field__title">
+															E-mail *
+															</h4>
+														</header>
+														<input autocomplete="off" class="form-field__core" data-val="true" data-val-required="Podaj e-mail" id="Email" name="Email" type="email" value="">
+														<span class="field-validation-error validationMsg" data-valmsg-for="Email" data-valmsg-replace="true">Podaj e-mail</span>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+									<!-- Telefon komórkowy -->
+									<div class="form__row-item">
+										<div class="form__field-container">
+											<label class="form-field">
+												<div class="form-field__wrapper">
+													<div class="form-field__inner">
+														<header class="form-field__header">
+															<h4 class="form-field__title">
+															Telefon komórkowy *
+															</h4>
+														</header>
+														<input autocomplete="off" class="form-field__core" data-val="true" data-val-length="Podaj poprawny numer (9 cyfr)." data-val-length-max="9" data-val-length-min="9" data-val-regex="Dopuszczalne są jedynie cyfry" data-val-regex-pattern="([0-9]+)" data-val-required="Podaj numer telefonu" id="Phone" name="Phone" type="tel" value="">
+														<span class="field-validation-error validationMsg" data-valmsg-for="Phone" data-valmsg-replace="true">Podaj numer telefonu</span>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form__row">
+									<!-- Jaką markę papierosów kupujesz najczęściej -->
+									<div class="form__row-item">
+										<div class="form__field-container">
+											<label class="form-field">
+												<div class="form-field__wrapper">
+													<div class="form-field__inner">
+														<header class="form-field__header">
+															<h4 class="form-field__title">
+															Jaką markę papierosów kupujesz najczęściej? *
+															</h4>
+														</header>
+														<select id="brand" name="MarkaPalona" class="form-field__core">
+															<option value="" selected="selected">
+																WYBIERZ
+															</option>
+															<!-- js auto generated -->
+															<option class="form-field__core" value="CAMEL">CAMEL</option>
+															<option value="CAMEL AUTHENTIC">CAMEL AUTHENTIC</option>
+															<option value="CAMEL SOFT">CAMEL SOFT</option>
+															<option value="CHESTERFIELD">CHESTERFIELD</option>
+															<option value="DAVIDOFF">DAVIDOFF</option>
+															<option value="E-PAPIEROSY">E-PAPIEROSY</option>
+															<option value="INNE">INNE</option>
+															<option value="IQOS">IQOS</option>
+															<option value="L&amp;M">L&amp;M</option>
+															<option value="L&amp;M FS">L&amp;M FS</option>
+															<option value="LD">LD</option>
+															<option value="LD COLORS">LD COLORS</option>
+															<option value="LUCKY STRIKE">LUCKY STRIKE</option>
+															<option value="LUCKY STRIKE ADD FREE">LUCKY STRIKE ADD FREE</option>
+															<option value="MARLBORO">MARLBORO</option>
+															<option value="MARLBORO SOFT">MARLBORO SOFT</option>
+															<option value="P&amp;S">P&amp;S</option>
+															<option value="PALL MALL">PALL MALL</option>
+															<option value="R1">R1</option>
+															<option value="RGD">RGD</option>
+															<option value="ROTHMANS">ROTHMANS</option>
+															<option value="TYTOŃ">TYTOŃ</option>
+															<option value="VOGUE">VOGUE</option>
+															<option value="WEST">WEST</option>
+															<option value="WINSTON">WINSTON</option>
+														</select>
+														<span class="field-validation-error validationMsg" data-valmsg-for="MarkaPalona" data-valmsg-replace="true">Wybierz jedną z wartości</span>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+									<!-- Jaki wariant papierosów preferujesz -->
+									<div class="form__row-item">
+										<div class="form__field-container">
+											<label class="form-field">
+												<div class="form-field__wrapper">
+													<div class="form-field__inner">
+														<header class="form-field__header">
+															<h4 class="form-field__title">
+															Jaki wariant papierosów preferujesz? *
+															</h4>
+														</header>
+														<select id="variant" name="Wariant" class="form-field__core">
+															<option value="">WYBIERZ</option>
+															<option value="100s">100s</option>
+															<option value="KS">KS</option>
+															<option value="SSL">SSL</option>
+														</select>
+														<span class="field-validation-error validationMsg" data-valmsg-for="Wariant" data-valmsg-replace="true">Wybierz jedną z wartości</span>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form__row">
+									<!-- Jaki format papierosów preferujesz -->
+									<div class="form__row-item">
+										<div class="form__field-container">
+											<label class="form-field">
+												<div class="form-field__wrapper">
+													<div class="form-field__inner">
+														<header class="form-field__header">
+															<h4 class="form-field__title">
+															Jaki format papierosów preferujesz? *
+															</h4>
+														</header>
+														<select id="format" class="form-field__core" name="Format">
+															<option value="">WYBIERZ</option>
+														</select>
+														<span class="field-validation-error validationMsg" data-valmsg-for="Format" data-valmsg-replace="true">Wybierz jedną z wartości</span>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+									<!-- Ile papierosów wypalasz dziennie? -->
+									<div class="form__row-item">
+										<div class="form__field-container">
+											<label class="form-field">
+												<div class="form-field__wrapper">
+													<div class="form-field__inner">
+														<header class="form-field__header">
+															<h4 class="form-field__title">
+															Ile papierosów wypalasz dziennie? *
+															</h4>
+														</header>
+														<select id="LiczbaWypalanychPapierosow" class="form-field__core" name="LiczbaWypalanychPapierosow">
+															<option selected="selected" value="">WYBIERZ</option>
+															<option value="WIĘCEJ NIŻ 21">WIĘCEJ NIŻ 21</option>
+															<option value="11-20">11-20</option>
+															<option value="10-6">10-6</option>
+															<option value="MNIEJ NIŻ 6">MNIEJ NIŻ 6</option>
+															<option value="PALĘ OKAZYJNIE PO KILKA PAPIEROSÓW">PALĘ OKAZYJNIE PO KILKA PAPIEROSÓW</option>
+														</select>
+														<span class="field-validation-error validationMsg" data-valmsg-for="LiczbaWypalanychPapierosow" data-valmsg-replace="true">Wybierz jedną z wartości</span>
+													</div>
+												</div>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-comment">
+									<p>* pola obowiązkowe</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="site-section">
+					<div class="site-section__layer">
+						<div class="site-section__wrapper">
+							<div class="site-section__inner">
+								<header class="section-header">
+									<h2 class="section-title infobox-title">Informacje podstawowe dotyczące przetwarzania danych osobowych</h2>
+								</header>
+								<div class="infobox">
+									<article class="article">
+										<div class="article__title">
+											<h3>Zakres przetwarzanych danych</h3>
+										</div>
+										<div class="article__text">
+											<p>
+												dane osobowe podane w ankiecie a ponadto dane na temat udziału w niepublicznych akcjach konsumenckich organizowanych przez Administratora oraz aktywności w jego serwisach konsumenckich: data i godzina logowania, liczba logowań, liczba wprowadzonych kodów produktowych, zdobyte nagrody, aktywność w sekcji quizowej i w innych sekcjach serwisów Administratora,  wyniki w grach w serwisie, liczba odpowiedzi udzielonych w konkursach, liczba wyświetleń animacji, liczba zaproszonych znajomych z informacją ilu zalogowało się w serwisie i wprowadziło kod, informacje gdzie, w jakiej formie i od kogo konsument otrzymał zaproszenie do udziału w danej akcji konsumenckiej.
+											</p>
+										</div>
+									</article>
+									<article class="article">
+										<div class="article__title">
+											<h3>Administrator danych</h3>
+										</div>
+										<div class="article__text">
+											<ul class="article__list">
+												<li class="article__list_item">JTI Polska sp. z o.o. z siedzibą w Starym Gostkowie</li>
+												<li class="article__list_item">Adres: Stary Gostków 42, 99-220 Wartkowice</li>
+											</ul>
+										</div>
+									</article>
+									<div class="more-info" data-more="dane">
+										<article class="article">
+											<div class="article__text">
+												<ul class="article__list">
+													<li class="article__list_item"><span class="strong">Nazwa i siedziba:</span> JTI Polska sp. z o.o., Stary Gostków 42, 99-220 Wartkowice</li>
+													<li class="article__list_item"><span class="strong">Formularz kontaktowy w sprawie przetwarzania danych:</span> <a href="www.do.jti.pl" target="_blank">www.do.jti.pl</a></li>
+												</ul>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>Inspektor Ochrony Danych</h3>
+											</div>
+											<div class="article__text">
+												<p>Administrator danych osobowych wyznaczył Inspektora Ochrony Danych, z którym można konstatować się bezpośrednio pod adresem: iod@jti.com Z Inspektorem Ochrony Danych można się kontaktować we wszystkich sprawach dotyczących przetwarzania danych osobowych oraz korzystania z praw związanych z przetwarzaniem tych danych.</p>
+											</div>
+										</article>
+									</div>
+									<div class="more-button" data-more-open="dane">Więcej informacji</div>
+									<article class="article">
+										<div class="article__title">
+											<h3>Cele przetwarzania</h3>
+										</div>
+										<div class="article__text">
+											<p>
+												marketing bezpośredni, w tym profilowanie
+											</p>
+										</div>
+									</article>
+									<div class="more-info" data-more="cele">
+										<article class="article">
+											<div class="article__title">
+												<h3>W jakich celach są przetwarzane Pani/Pana dane osobowe i jaka jest podstawa prawna przetwarzania?</h3>
+											</div>
+											<div class="article__text">
+												<p>Pani/Pana dane osobowe, w tym informacje o paleniu, będą przetwarzane dla celów marketingowych, w tym profilowania produktów administratora danych. Podstawą prawną przetwarzania danych jest Pani/Pana zgoda. Jeżeli nie wyraził/a Pani/Pan zgody, dane osobowe nie będą przetwarzane w tym celu.</p>
+												<p>Profilowanie będzie służyć dobraniu dla Pani/Pana optymalnej oferty w zakresie niepublicznego marketingu produktów administratora, tj. takiej, która może wydać się najbardziej dla Pani/Pana interesująca. W tym celu Administrator może analizować dane osobowe przekazane w ankiecie oraz dane wymienione w komórce „Zakres przetwarzanych danych”. W związku z przetwarzaniem Pani/Pana danych osobowych w powyższym celu nie będzie stosowane zautomatyzowane podejmowanie decyzji. Jeśli administrator w przyszłości będzie chciał wprowadzić zautomatyzowane przetwarzanie, o którym mowa w art. 22 RODO, poprosi Panią/Pana o odrębna zgodę.</p>
+											</div>
+										</article>
+									</div>
+									<div class="more-button" data-more-open="cele">Więcej informacji</div>
+									<article class="article">
+										<div class="article__title">
+											<h3>Podstawa prawna przetwarzania</h3>
+										</div>
+										<div class="article__text">
+											<p>
+												marketing bezpośredni, w tym profilowanie - zgoda - art. 6 ust. 1 a) RODO, przy czym w odniesieniu do informacji o paleniu podstawą zgody jest art. 9 ust. 2 a) RODO.
+											</p>
+											<p>
+												RODO - Rozporządzanie PE i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych)
+											</p>
+										</div>
+									</article>
+									<div class="more-info" data-more="podstawa">
+										<article class="article">
+											<div class="article__title">
+												<h3>W jakich celach są przetwarzane Pani/Pana dane osobowe i jaka jest podstawa prawna przetwarzania?</h3>
+											</div>
+											<div class="article__text">
+												<p>Pani/Pana dane osobowe, w tym informacje o paleniu, będą przetwarzane dla celów marketingowych, w tym profilowania produktów administratora danych. Podstawą prawną przetwarzania danych jest Pani/Pana zgoda. Jeżeli nie wyraził/a Pani/Pan zgody, dane osobowe nie będą przetwarzane w tym celu. </p>
+												<p>Profilowanie będzie służyć dobraniu dla Pani/Pana optymalnej oferty w zakresie niepublicznego marketingu produktów administratora, tj. takiej, która może wydać się najbardziej dla Pani/Pana interesująca. W tym celu Administrator może analizować dane osobowe przekazane w ankiecie oraz dane wymienione w komórce „Zakres przetwarzanych danych”. W związku z przetwarzaniem Pani/Pana danych osobowych w powyższym celu nie będzie stosowane zautomatyzowane podejmowanie decyzji. Jeśli administrator w przyszłości będzie chciał wprowadzić zautomatyzowane przetwarzanie, o którym mowa w art. 22 RODO, poprosi Panią/Pana o odrębna zgodę.</p>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>W jakich celach są przetwarzane Pani/Pana dane osobowe i jaka jest podstawa prawna przetwarzania?</h3>
+											</div>
+											<div class="article__text">
+												<p>Pani/Pana dane osobowe będą przechowywane do momentu cofnięcia zgody na przetwarzanie danych osobowych w celach marketingowych, w tym profilowania.</p>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>Czy podanie Pani/Pana danych osobowych jest dobrowolne?</h3>
+											</div>
+											<div class="article__text">
+												<p>Podanie danych osobowych jest dobrowolne.</p>
+											</div>
+										</article>
+									</div>
+									<div class="more-button" data-more-open="podstawa">Więcej informacji</div>
+									<article class="article">
+										<div class="article__title">
+											<h3>Prawa związane z przetwarzaniem danych</h3>
+										</div>
+										<div class="article__text">
+											<ul class="article__list">
+												<li class="article__list_item">prawo do wycofania zgody na przetwarzanie danych osobowych w każdym czasie;</li>
+												<li class="article__list_item">prawo do usunięcia danych;</li>
+												<li class="article__list_item">prawo do przenoszenia danych osobowych;</li>
+												<li class="article__list_item">prawo dostępu do danych;</li>
+												<li class="article__list_item">prawo do ograniczenia przetwarzania;</li>
+												<li class="article__list_item">prawo do sprostowania i uzupełnienia;</li>
+												<li class="article__list_item">prawo wniesienia skargi do organu nadzorczego zajmującego się ochroną danych osobowych</li>
+											</ul>
+										</div>
+									</article>
+									<div class="more-info" data-more="prawa">
+										<article class="article">
+											<div class="article__title">
+												<h3>Jakie są Pani/Pana prawa związane z przetwarzaniem danych osobowych?</h3>
+											</div>
+											<div class="article__text">
+												<p>Przysługuje Pani/Panu prawo do wycofania zgody. Wycofanie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej wycofaniem. Przysługuje Pani/Panu prawo do usunięcia danych. </p>
+												<p>PPrzysługuje Pani/Panu także prawo do przenoszenia danych osobowych, tj. do otrzymania od administratora Pani/Pana danych osobowych, w ustrukturyzowanym, powszechnie używanym formacie nadającym się do odczytu maszynowego. Może Pani/Pan przesłać te dane innemu administratorowi danych. Przysługuje Pani/Panu także prawo żądania, by dane osobowe zostały przesłane przez administratora bezpośrednio innemu administratorowi.</p>
+												<p>Przysługuje Pani/Panu prawo do uzyskania od administratora potwierdzenia, czy przetwarzane są Pani/Pana dane osobowe oraz uzyskania informacji o celach przetwarzania, czy kategoriach odnośnych danych osobowych, a także innych informacji zgodnie z art. 15 RODO, w tym uzyskania kopii danych osobowych podlegających przetwarzaniu. Ponadto, może Pani/Pan wnieść żądanie sprostowania danych osobowych, które są nieprawidłowe, a także uzupełnienia niekompletnych danych osobowych, w tym poprzez przedstawienie dodatkowego oświadczenia oraz żądania od administratora ograniczenia przetwarzania w przypadkach, o których mowa w art. 18 RODO.</p>
+												<p>Przysługuje Pani/Panu także prawo wniesienia skargi do organu nadzorczego zajmującego się ochroną danych osobowych.</p>
+												<p>W celu realizacji powyższych praw należy skontaktować się z administratorem danych. Można to zrobić np. przesyłając stosowny wniosek korzystając z formularza kontaktowego dostępnego pod adresem: www.do.jti.pl</p>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>W jakich celach są przetwarzane Pani/Pana dane osobowe i jaka jest podstawa prawna przetwarzania?</h3>
+											</div>
+											<div class="article__text">
+												<p>Pani/Pana dane osobowe będą przechowywane do momentu cofnięcia zgody na przetwarzanie danych osobowych w celach marketingowych, w tym profilowania.</p>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>Czy podanie Pani/Pana danych osobowych jest dobrowolne?</h3>
+											</div>
+											<div class="article__text">
+												<p>Podanie danych osobowych jest dobrowolne.</p>
+											</div>
+										</article>
+									</div>
+									<div class="more-button" data-more-open="prawa">Więcej informacji</div>
+									<article class="article">
+										<div class="article__title">
+											<h3>Odbiorcy danych</h3>
+										</div>
+										<div class="article__text">
+											<p>Dane osobowe mogą być powierzane do przetwarzania podmiotom wspierającym realizację celu przetwarzania danych na zlecenie administratora.</p>
+										</div>
+									</article>
+									<div class="more-info" data-more="odbiorca">
+										<article class="article">
+											<div class="article__title">
+												<h3>Do jakich odbiorców przekazywane będą Pani/Pana dane osobowe?</h3>
+											</div>
+											<div class="article__text">
+												<p>Pani/Pana dane mogą być przekazywane podmiotom przetwarzającym dane osobowe na zlecenie administratora, m.in. dostawcom usług IT, agencjom marketingowym, podmiotowi obsługującemu bazę danych – przy czym takie podmioty przetwarzają dane na podstawie umowy z administratorem i wyłącznie zgodnie z poleceniem administratora i w celach objętych zgodą.</p>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>Czy dane osobowe są przekazywane poza Europejski Obszar Gospodarczy?</h3>
+											</div>
+											<div class="article__text">
+												<p>Pani/Pana dane osobowe mogą być powierzone do przetwarzania spółce z grupy JTI z siedzibą w Szwajcarii (tj. poza Europejski Obszar Gospodarczy). Komisja Europejska stwierdziła w odniesieniu do tego kraju odpowiedni poziom ochrony danych osobowych (decyzja Komisji z dnia 26 lipca 2000 r.). Odbiorca wdrożył odpowiednie i właściwe zabezpieczenia Pani/Pana danych osobowych. Przysługuje Pani/Panu prawo do uzyskania kopii przekazanych danych osobowych.</p>
+											</div>
+										</article>
+									</div>
+									<div class="more-button" data-more-open="odbiorca">Więcej informacji</div>
+								</div>
+								<div class="infobox-comment">
+									<p>Szczegółowe informacje o przetwarzaniu, <span data-comment-open="przetwarzanie" class="comment-button">kliknij</span></p>
+									<div class="comment-info" data-comment="przetwarzanie">
+										<article class="article">
+											<div class="article__title">
+												<h3>1. Kto jest administratorem Pani/Pana danych osobowych?</h3>
+											</div>
+											<div class="article__text">
+												<p><span class="strong">Nazwa i siedziba:</span> JTI Polska sp. z o.o., Stary Gostków 42, 99-220 Wartkowice</p>
+												<p><span class="strong">Formularz kontaktowy w sprawie przetwarzania danych:</span> <a href="www.do.jti.pl" target="_blank">www.do.jti.pl</a></p>
+												<p><span class="line"><span class="strong">Inspektor Ochrony</span></span> Danych Administrator danych osobowych wyznaczył Inspektora Ochrony Danych, z którym można konstatować się bezpośrednio pod adresem: <a href="mailto:iod@jti.com">iod@jti.com</a></p>
+												<p>Z Inspektorem Ochrony Danych można się kontaktować we wszystkich sprawach dotyczących przetwarzania danych osobowych oraz korzystania z praw związanych z przetwarzaniem tych danych.</p>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>2. W jakich celach są przetwarzane Pani/Pana dane osobowe i jaka jest podstawa prawna przetwarzania?</h3>
+											</div>
+											<div class="article__text">
+												<p>Pani/Pana dane osobowe, w tym informacje o paleniu, będą przetwarzane dla celów marketingowych, w tym profilowania produktów administratora danych. Podstawą prawną przetwarzania danych jest Pani/Pana zgoda. Jeżeli nie wyraził/a Pani/Pan zgody, dane osobowe nie będą przetwarzane w tym celu. Profilowanie będzie służyć dobraniu dla Pani/Pana optymalnej oferty w zakresie niepublicznego marketingu produktów administratora, tj. takiej, która może wydać się najbardziej dla Pani/Pana interesująca. W tym celu Administrator może analizować dane osobowe przekazane w ankiecie oraz dane wymienione w komórce „Zakres przetwarzanych danych”. W związku z przetwarzaniem Pani/Pana danych osobowych w powyższym celu nie będzie stosowane zautomatyzowane podejmowanie decyzji. Jeśli administrator w przyszłości będzie chciał wprowadzić zautomatyzowane przetwarzanie, o którym mowa w art. 22 RODO, poprosi Panią/Pana o odrębna zgodę.</p>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>3. Jaki jest okres przechowywania danych osobowych?</h3>
+											</div>
+											<div class="article__text">
+												<p>Pani/Pana dane osobowe będą przechowywane do momentu cofnięcia zgody na przetwarzanie danych osobowych w celach marketingowych, w tym profilowania.</p>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>4. Do jakich odbiorców przekazywane będą Pani/Pana dane osobowe?</h3>
+											</div>
+											<div class="article__text">
+												<p>Pani/Pana dane mogą być przekazywane podmiotom przetwarzającym dane osobowe na zlecenie administratora, m.in. dostawcom usług IT, agencjom marketingowym, podmiotowi obsługującemu bazę danych – przy czym takie podmioty przetwarzają dane na podstawie umowy z administratorem i wyłącznie zgodnie z poleceniem administratora i w celach objętych zgodą.</p>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>5. Jakie są Pani/Pana prawa związane z przetwarzaniem danych osobowych?</h3>
+											</div>
+											<div class="article__text">
+												<p>Przysługuje Pani/Panu prawo do wycofania zgody. Wycofanie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej wycofaniem. Przysługuje Pani/Panu prawo do usunięcia danych.</p>
+												<p>Przysługuje Pani/Panu także prawo do przenoszenia danych osobowych, tj. do otrzymania od administratora Pani/Pana danych osobowych, w ustrukturyzowanym, powszechnie używanym formacie nadającym się do odczytu maszynowego. Może Pani/Pan przesłać te dane innemu administratorowi danych. Przysługuje Pani/Panu także prawo żądania, by dane osobowe zostały przesłane przez administratora bezpośrednio innemu administratorowi.</p>
+												<p>Przysługuje Pani/Panu prawo do uzyskania od administratora potwierdzenia, czy przetwarzane są Pani/Pana dane osobowe oraz uzyskania informacji o celach przetwarzania, czy kategoriach odnośnych danych osobowych, a także innych informacji zgodnie z art. 15 RODO, w tym uzyskania kopii danych osobowych podlegających przetwarzaniu. Ponadto, może Pani/Pan wnieść żądanie sprostowania danych osobowych, które są nieprawidłowe, a także uzupełnienia niekompletnych danych osobowych, w tym poprzez przedstawienie dodatkowego oświadczenia oraz żądania od administratora ograniczenia przetwarzania w przypadkach, o których mowa w art. 18 RODO.</p>
+												<p>Przysługuje Pani/Panu także prawo wniesienia skargi do organu nadzorczego zajmującego się ochroną danych osobowych.</p>
+												<p>W celu realizacji powyższych praw należy skontaktować się z administratorem danych. Można to zrobić np. przesyłając stosowny wniosek korzystając z formularza kontaktowego dostępnego pod adresem: <a href="www.do.jti.pl" target="_blank">www.do.jti.pl</a></p>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>6. Czy dane osobowe są przekazywane poza Europejski Obszar Gospodarczy?</h3>
+											</div>
+											<div class="article__text">
+												<p>Pani/Pana dane osobowe mogą być powierzone do przetwarzania spółce z grupy JTI z siedzibą w Szwajcarii (tj. poza Europejski Obszar Gospodarczy). Komisja Europejska stwierdziła w odniesieniu do tego kraju odpowiedni poziom ochrony danych osobowych (decyzja Komisji z dnia 26 lipca 2000 r.). Odbiorca wdrożył odpowiednie i właściwe zabezpieczenia Pani/Pana danych osobowych. Przysługuje Pani/Panu prawo do uzyskania kopii przekazanych danych osobowych.</p>
+											</div>
+										</article>
+										<article class="article">
+											<div class="article__title">
+												<h3>7. Czy podanie Pani/Pana danych osobowych jest dobrowolne?</h3>
+											</div>
+											<div class="article__text">
+												<p>Podanie danych osobowych jest dobrowolne.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="site-section" id="terms">
+					<div class="site-section__layer">
+						<div class="site-section__wrapper">
+							<div class="site-section__inner">
+								<div class="verify">
+									<h3 class="verify__title">Weryfikacja wieku</h3>
+									<ol>
+										<li>
+											Prosimy o potwierdzenie pełnoletności, które jest warunkiem zapisania się w Bazie Danych Konsumentów (BDK).
+										</li>
+										<li>
+											Weryfikacja pełnoletności jest dokonywana od razu on-line przy użyciu dowodu osobistego bądź paszportu.
+										</li>
+										<li>
+											W celu potwierdzenia pełnoletności weryfikowany jest biały pasek z dowodu osobistego/paszportu (kod MRZ), na którym znajdują się: imię , nazwisko, data urodzenia. System nie widzi i nie analizuje innych danych. Wykorzystywana jest tylko kamera urządzenia (komputera/telefonu) i nie ma potrzeby pobierania dodatkowych aplikacji lub narzędzi. Zdjęcie dokumentu oraz analizowane dane również nie są pobierane przez system JTI. Analiza danych odbywa się na urządzeniu Konsumenta a do systemu JTI jest przekazywana jedynie informacja, czy dane są zgodne z danymi wpisanymi w formularzu.
+										</li>
+										<li>
+											Weryfikacja wieku wymaga następujących czynności:
+											<ol style="list-style-type: lower-alpha;">
+												<li>
+													W przypadku wybrania opcji zdjęcia należy wykonać zdjęcie dokumentu za pomocą kamery w telefonie Konsumenta lub przy użyciu kamerki komputera. Aby skorzystać z tej możliwości konieczne będzie udostępnienie galerii zdjęć lub dostępu do kamery.
+												</li>
+												<li>
+													W przypadku wybrania opcji skanu, należy załączyć skan dokumentu.
+												</li>
+											</ol>
+										</li>
+										<li>
+											Po skutecznym potwierdzeniu pełnoletności, na podany przy rejestracji adres e-mail wyślemy potwierdzenie, że rejestracja w BDK przebiegła pomyślnie.
+										</li>
+									</ol>
+									<div id="document-display">
+										<div id="controls">
+										</div>
+										<span id="progress" style="display:none;">100%</span>
+										<button id="scan" title="Scan" style="display:none;">📷</button>
+										<button id="rotate" title="Rotate" style="display:none;">↶</button>
+									</div>
+									<div id="screenshot" class="cropper-bg">
+									  <img id="pictureImg" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" alt="Załaduj zdjęcie tylnej części dowodu osobistego">  
+									</div>
+									<div>
+										<div class="image-upload">
+											<div>
+												Załącz plik
+											</div>
+											<label for="fileInput">
+												<img src="../img/spinacz.png">
+											</label>
+											<input id="fileInput" type="file" accept="image/*">
+										</div>
+										.<div class="image-button">
+											<button id="rotateBtn" class="btn btn--light">Obróć</button>
+											<button id="croppBtn" class="btn btn--light">Przytnij</button>
+											<button id="check" title="Check" class="btn btn--light">Sprawdź</button>
+										</div>
+										<a href="instrukcja.pdf" target="_blank" class="instruction">
+											Instrukcja obslugi
+										</a>
+									</div>
+									<div id="croppieContainer" style="display:none;" class="croppie-container">
+										<div class="cr-boundary" aria-dropeffect="none"><canvas class="cr-image" alt="preview" aria-grabbed="false" width="1" height="1"></canvas><div class="cr-viewport cr-vp-square" tabindex="0" style="width: 900px; height: 220px;"></div><div class="cr-overlay"></div></div><div class="cr-slider-wrap"><input class="cr-slider" type="range" step="0.0001" aria-label="zoom"></div></div>
+									</div>
+								<div class="checkboxes">
+									<div class="mycheck-container">
+										<label class="mycheck">
+											<input data-val="true" data-val-range="Jeżeli chcesz się zarejestrować w naszej bazie danych, zgoda ta jest obowiązkowa." data-val-range-max="True" data-val-range-min="True" data-val-required="The ZgodaNaPrzetwarzanieDanych field is required." id="ZgodaNaPrzetwarzanieDanych" name="ZgodaNaPrzetwarzanieDanych" type="checkbox" value="true" class="mycheck__input">
+											<div class="mycheck__figure field-error">
+												<div class="mycheck__figure_inside"></div>
+											</div>
+											<p class="mycheck__description">
+												Oświadczam, że jestem pełnoletnią osobą palącą i wyrażam zgodę na przetwarzanie moich danych osobowych w celach marketingowych, w tym profilowania, przez JTI Polska sp. z o.o. Mam świadomość, że wyrażenie zgody jest dobrowolne. Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać tę zgodę. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie mojej zgody przed jej wycofaniem.
+											</p>
+										</label>
+										<span class="field-validation-error validationMsg" data-valmsg-for="ZgodaNaPrzetwarzanieDanych" data-valmsg-replace="true">* Jeżeli chcesz się zarejestrować w naszej bazie danych, zgoda ta jest obowiązkowa.</span>
+									</div>
+									<p>
+										Dodatkowo wyrażam zgodę na otrzymywanie od JTI Polska sp. z o.o. informacji marketingowych z użyciem urządzeń telekomunikacyjnych i tzw. automatycznych systemów wywołujących, wybierając jako formę kontaktu:
+									</p>
+									<div class="mycheck-container">
+										<label class="mycheck">
+											<input data-val="true" data-val-required="The ZgodaNaKomunikacjeSMS field is required." id="ZgodaNaKomunikacjeSMS" name="ZgodaNaKomunikacjeSMS" type="checkbox" value="true" class="mycheck__input">
+											<div class="mycheck__figure">
+												<div class="mycheck__figure_inside"></div>
+											</div>
+											<p class="mycheck__description">
+												Połączenia głosowe (rozmowa telefoniczna)
+											</p>
+										</label>
+									</div>
+									<div class="mycheck-container">
+										<label class="mycheck">
+											<input data-val="true" data-val-required="The ZgodaNaKomunikacjeEmail field is required." id="ZgodaNaKomunikacjeEmail" name="ZgodaNaKomunikacjeEmail" type="checkbox" value="true" class="mycheck__input">
+											<div class="mycheck__figure">
+												<div class="mycheck__figure_inside"></div>
+											</div>
+											<p class="mycheck__description">
+												Wiadomości elektroniczne (e-mail, SMS/MMS)
+											</p>
+										</label>
+									</div>
+									<span class="field-validation-error validationMsg" data-valmsg-for="ZgodaNaPrzetwarzanieDanych" data-valmsg-replace="true">Jeżeli nie zaznaczysz żadnej zgody na komunikację, nie będziemy mogli się z Tobą skontaktować.</span>
+									<button type="submit" class="btn btn--wide btn--center">
+									Zarejestruj się
+									</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+			<footer class="site-footer">
+				<img src="img/logo-jti.png" alt="JTI">
+				<ul class="privacy">
+					<li class="privacy__item"><a href="#" class="privacy__item_link">Regulamin serwisu</a></li>
+					<li class="privacy__item"><a href="#" class="privacy__item_link">Polityka prywatności</a></li>
+					<li class="privacy__item"><a href="#" class="privacy__item_link">Kontakt</a></li>
+					<li class="privacy__item"><a href="http://www.strefakonsumencka.pl/infolinia" target="_blank" class="privacy__item_link">Dane osobowe infolinia</a></li>
+				</ul>
+			</footer>
+		</div>
+		<div id="consentPanel" class="consentFloating">
+		    Strona używa plików cookie. Dowiedz się więcej o celu ich używania i zmianie ustawień cookies w przeglądarce. Korzystając ze strony wyrażasz zgodę na używanie cookies.
+		    <br>
+		    <div class="mycheck-container">
+					<label class="mycheck">
+						<input id="consent-input" name="consent-input" type="checkbox" value="true" class="mycheck__input test">
+						<div class="mycheck__figure">
+							<div class="mycheck__figure_inside"></div>
+						</div>
+						<p class="mycheck__description" id="consentAccept">ROZUMIEM</p>
+					</label>
+				</div>
+		    &nbsp;&nbsp; <a class="more-consent" href="/Assets/Polityka prywatności.pdf" target="_blank">WIĘCEJ INFORMACJI</a>
+		</div>
+		<script src="js/scripts.min.js"></script>
+	</body>
+</html>

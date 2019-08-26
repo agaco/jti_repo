@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Login | Strefa konsumencka</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<div class="login">
+		<header class="site-header gradient-login">
+			<h1 class="logo">
+				<img src="img/login-logo.png" alt="Strefa konsumencka">
+			</h1>
+		</header>
+		<section class="site-login">
+			<div class="site-login__description">
+				<p>Serwis niepubliczny, dostępny wyłącznie dla osób zarejestrowanych w bazie konsumenckiej JTI Polska sp. z o.o.</p>
+			</div>
+			<div class="site-login__form-container">
+				<div class="site-login__form">
+					<form class="login-form">
+						<h3 class="form__title">Zaloguj się</h3>
+						<title></title>
+						<div class="form__row">
+							<!-- Login -->
+							<div class="form__row-item">
+								<div class="form__field-container">
+									<label class="form-field">
+										<div class="form-field__wrapper">
+											<div class="form-field__inner">
+												<header class="form-field__header">
+													<h4 class="form-field__title">
+													Login
+													</h4>
+												</header>
+												<input autocomplete="off" data-val="true" data-val-required="Podaj poprawny login" id="Login" name="Login" placeholder="Adres e-mail" type="text" value="" class="form-field__core" >
+												<span class="field-validation-error validationMsg" data-valmsg-for="Login" data-valmsg-replace="true">Podaj poprawny login</span>
+											</div>
+										</div>
+									</label>
+								</div>
+							</div>
+							<!-- Hasło -->
+							<div class="form__row-item">
+								<div class="form__field-container">
+									<label class="form-field tooltip-item">
+										<div class="form-field__wrapper">
+											<div class="form-field__inner">
+												<header class="form-field__header">
+													<h4 class="form-field__title">
+													Hasło
+													</h4>
+												</header>
+												<input autocomplete="off" data-val="true" data-val-required="Podaj hasło" id="Password" name="Password" type="password" class="form-field__core" >
+												<span class="field-validation-error validationMsg" data-valmsg-for="Password" data-valmsg-replace="true">Podaj hasło</span>
+											</div>
+										</div>
+										<div class="tooltip-item__tooltip-container">
+											<div class="tooltip tooltip--black">
+												<div class="tooltip__text">
+													Do pierwszego logowania użyj hasła startowego z zaproszenia
+												</div>
+											</div>
+										</div>
+									</label>
+									<a href="ResetPassword.html" id="ResetPassword">Nie pamiętasz hasła?</a>
+								</div>
+							</div>
+						</div>
+						<div class="mycheck-container">
+							<label class="mycheck">
+								<input data-val="true" data-val-range="Jeżeli chcesz się zarejestrować w naszej bazie danych, zgoda ta jest obowiązkowa." data-val-range-max="True" data-val-range-min="True" data-val-required="The ZgodaNaPrzetwarzanieDanych field is required." id="ZgodaNaPrzetwarzanieDanych" name="ZgodaNaPrzetwarzanieDanych" type="checkbox" value="true" class="mycheck__input">
+								<div class="mycheck__figure">
+									<div class="mycheck__figure_inside"></div>
+								</div>
+								<p class="mycheck__description">Potwierdzam zapoznanie się z Regulaminem Serwisu i polityką prywatności.</p>
+							</label>
+							<span class="field-validation-error validationMsg" data-valmsg-for="ZgodaNaPrzetwarzanieDanych" data-valmsg-replace="true">Jeżeli chcesz się zarejestrować w naszej bazie danych, zgoda ta jest obowiązkowa.</span>
+						</div>
+						<button type="submit" class="btn btn--light btn--full">Zaloguj</button>
+						<p class="validationInfoTop">Nie rozpoznajemy tego konta. Sprawdź pisownię i spróbuj ponownie.</p>
+					</form>
+				</div>
+				<div class="site-login__register-info">
+					<div class="register-info">
+						<div class="register-info__text">
+							<p>
+								<span class="line">Jesteś tu po raz pierwszy?</span>
+								<span class="line">Zarejestruj się w naszej bazie danych,</span>
+								<span class="line">załóż konto w Strefie Konsumenckiej</span>
+								<span class="line">i bądź na bieżąco z akcjami,</span>
+								<span class="line">które dla Ciebie przygotowaliśmy.</span>
+							</p>
+						</div>
+						<a href="#" class="register-info__link">Sprawdź zasady rejestracji</a>
+						<div class="btn btn--light btn--full">ZAREJESTRUJ SIĘ W NASZEJ BAZIE DANYCH</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="site-footer">
+			<img src="img/logo-jti.png" alt="JTI">
+			<ul class="privacy">
+				<li class="privacy__item"><a href="#" class="privacy__item_link">Regulamin serwisu</a></li>
+				<li class="privacy__item"><a href="#" class="privacy__item_link">Polityka prywatności</a></li>
+				<li class="privacy__item"><a href="#" class="privacy__item_link">Kontakt</a></li>
+				<li class="privacy__item"><a href="http://www.strefakonsumencka.pl/infolinia" target="_blank" class="privacy__item_link">Dane osobowe infolinia</a></li>
+			</ul>
+		</footer>
+		<div id="consentPanel" class="consentFloating">
+		    Strona używa plików cookie. Dowiedz się więcej o celu ich używania i zmianie ustawień cookies w przeglądarce. Korzystając ze strony wyrażasz zgodę na używanie cookies.
+		    <br>
+		    <div class="mycheck-container">
+					<label class="mycheck">
+						<input id="consent-input" name="consent-input" type="checkbox" value="true" class="mycheck__input test">
+						<div class="mycheck__figure">
+							<div class="mycheck__figure_inside"></div>
+						</div>
+						<p class="mycheck__description" id="consentAccept">ROZUMIEM</p>
+					</label>
+				</div>
+		    &nbsp;&nbsp; <a class="more-consent" href="/Assets/Polityka prywatności.pdf" target="_blank">WIĘCEJ INFORMACJI</a>
+		</div>
+	</div>
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>

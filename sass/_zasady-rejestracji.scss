@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&subset=latin-ext');
+
+br {
+    display: none;
+
+    @include respond(tab-land) {
+        display: unset;
+    }
+}
+
+.rules-banner {
+    background: rgb(203,179,182);
+    background: -moz-linear-gradient(left, rgba(203,179,182,1) 0%, rgba(156,214,215,1) 51%, rgba(156,214,215,1) 60%, rgba(0,168,100,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(203,179,182,1) 0%,rgba(156,214,215,1) 51%,rgba(156,214,215,1) 60%,rgba(0,168,100,1) 100%);
+    background: linear-gradient(to right, rgba(203,179,182,1) 0%,rgba(156,214,215,1) 51%,rgba(156,214,215,1) 60%,rgba(0,168,100,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbb3b6', endColorstr='#00a864',GradientType=1 );
+
+    &__headline {
+        font-size: calRem(30px);
+        text-align: center;
+        color: #ffffff;
+        font-weight: normal;
+        margin: 45px 0;
+    }
+}
+
+.rules {
+    margin-top: calRem(100px);
+
+    &__details-container {
+        margin-top: calRem(40px);
+    }
+
+    &__article {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    &__article-number {
+
+        font-family: "Cambay";
+        color: #5ccdc9;
+        font-size: 3rem;
+        line-height: 3rem;
+        display: inline-block;
+        margin: 2rem;
+        text-align: center;
+        font-weight: normal;
+        position: relative;
+    
+        &::before {
+            content: "";
+            position: absolute;
+            border: 2px solid #5ccdc9;
+            width: 75px;
+            height: 75px;
+            left: 51%;
+            top: 65%;
+            border-radius: 50%;
+            transform: translate(-51%, -65%);
+        }
+
+    }
+
+    &__article-text {
+        font-size: calRem(18px);
+        line-height: calRem(24px);
+    }
+
+    &__details {
+        padding: 20px;
+        font-family: "Roboto";
+        font-size: calRem(13px);
+        line-height: calRem(20px);
+        
+        margin: 0 auto;
+
+        @include respond(tab-land) {
+            width: 80%;
+        }
+    }
+
+    &__list,
+    &__list-item {
+        list-style-type: decimal;
+    }
+
+    &__list-item {
+        padding-left: 20px;
+        margin-top:20px;
+    }
+
+    &__list-item--sub {
+        margin-left: 40px;
+    }
+
+    &__list-item--sub {
+        list-style-type: lower-roman;
+    }
+}
