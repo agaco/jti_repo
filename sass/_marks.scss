@@ -117,7 +117,7 @@ span.ld-red {
 
     &__image {
 
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
 
         img {
@@ -148,13 +148,20 @@ span.ld-red {
         }
 
         @include respond(big-desktop) {
-            font-size: 25px;
+            font-size: 22px;
         }
 
         &--camel {
             color: $blue-color;
             font-family: 'Nunito Sans';
             font-weight: 400;
+            @include respond(desktop) {
+                font-size: 18px;
+            }
+
+            @include respond(big-desktop) {
+                font-size: 19px;
+            }
 
             strong {
                 font-weight: 700;
@@ -196,7 +203,8 @@ span.ld-red {
 
         &--camel {
             background: #fff000;
-            font-size: 44px;
+            padding: 25px 55px 15px 25px;
+            font-size: 34px;
             color: $blue-color;
             font-family: 'Nunito Sans';
             font-weight: 900;
@@ -233,6 +241,7 @@ span.ld-red {
     }
 
     &--camel {
+        height: calc(100vh - 110px);
 
         .slick-prev.slick-arrow {
             background: url(../img/slider_prev_camel.png);
@@ -253,6 +262,7 @@ span.ld-red {
 }
 
 .product-slider {
+
     &__packshot-bg {
 
         padding: 120px 15px 100px;
@@ -264,6 +274,8 @@ span.ld-red {
 
         &--camel {
             background: $light-blue;
+            height: 100%;
+            padding: 20px 15px 10px;
         }
 
     }
@@ -313,12 +325,12 @@ span.ld-red {
             max-width: 220px;
         }
         @include respond(desktop) {
-            font-size: 20px;
+            font-size: 19px;
             font-weight: 700;
         }
 
         @include respond(big-desktop) {
-            font-size: 22px;
+            font-size: 20px;
         }
 
 
@@ -370,7 +382,9 @@ span.ld-red {
             font-weight: 400;
             background: #fff000;
             color: $blue-color;
-
+            font-size: 20px;
+            padding: 25px 15px 25px;
+            min-height: 220px;
             strong {
                 font-weight: 700;
             }
