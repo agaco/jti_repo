@@ -242,6 +242,7 @@ span.ld-red {
 
     &--camel {
         height: calc(100vh - 110px);
+        background: #fff000;
 
         .slick-prev.slick-arrow {
             background: url(../img/slider_prev_camel.png);
@@ -706,4 +707,24 @@ span.ld-red {
 .icon-lock--ld {
     background-image: url(../img/icon-lock-ld.png);
 
+}
+
+////////////////////////////
+.product-slider__desc--camel {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    background: #fff000;
+    color: #004772;
+    font-size: 16px;
+    padding: 25px 15px 25px;
+    min-height: 0;
+    height: 100%;
+    flex: 1 0 200px;
+}
+.product-slider__packshot-bg--camel {
+    height: auto;
+}
+
+.product-slider__image--smaller img{
+    max-width: 90% !important;
 }
