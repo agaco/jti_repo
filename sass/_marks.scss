@@ -27,7 +27,10 @@ span.ld-red {
 .mark-header {
     margin-top: 110px;
     text-align: center;
-    height: calc(100vh - 110px);
+    height: auto;
+    @include respond(tab-port) {
+        height: calc(100vh - 110px);
+    }
     &__image {
         margin: 20px 0 20px;
         width: 140px;
@@ -241,8 +244,11 @@ span.ld-red {
     }
 
     &--camel {
-        height: calc(100vh - 110px);
         background: #fff000;
+        height: auto;
+        @include respond(tab-port) {
+            height: calc(100vh - 110px);
+        }
 
         .slick-prev.slick-arrow {
             background: url(../img/slider_prev_camel.png);
@@ -274,9 +280,11 @@ span.ld-red {
         }
 
         &--camel {
+            @include respond(tab-port) {
+                height: 100%;
+                padding: 20px 15px 10px;
+            }
             background: $light-blue;
-            height: 100%;
-            padding: 20px 15px 10px;
         }
 
     }
@@ -709,7 +717,7 @@ span.ld-red {
 
 }
 
-////////////////////////////
+//////////////////////////// additional
 .product-slider__desc--camel {
     font-family: 'Nunito Sans';
     font-weight: 400;
@@ -719,10 +727,10 @@ span.ld-red {
     padding: 25px 15px 25px;
     min-height: 0;
     height: 100%;
-    flex: 1 0 200px;
-}
-.product-slider__packshot-bg--camel {
-    height: auto;
+    @include respond(tab-port) {
+        flex: 1 0 200px;
+    }
+
 }
 
 .product-slider__image--smaller img{

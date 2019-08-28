@@ -66,7 +66,10 @@ span.ld-red {
 .mark-header {
   margin-top: 110px;
   text-align: center;
-  height: calc(100vh - 110px); }
+  height: auto; }
+  @media only screen and (min-width: 576px) {
+    .mark-header {
+      height: calc(100vh - 110px); } }
   .mark-header__image {
     margin: 20px 0 20px;
     width: 140px;
@@ -217,8 +220,11 @@ span.ld-red {
   background: url(../img/slider_next_winston.png); }
 
 .products--camel {
-  height: calc(100vh - 110px);
-  background: #fff000; }
+  background: #fff000;
+  height: auto; }
+  @media only screen and (min-width: 576px) {
+    .products--camel {
+      height: calc(100vh - 110px); } }
   .products--camel .slick-prev.slick-arrow {
     background: url(../img/slider_prev_camel.png); }
   .products--camel .slick-next.slick-arrow {
@@ -237,9 +243,11 @@ span.ld-red {
     .product-slider__packshot-bg {
       height: 800px; } }
   .product-slider__packshot-bg--camel {
-    background: #00ade9;
-    height: 100%;
-    padding: 20px 15px 10px; }
+    background: #00ade9; }
+    @media only screen and (min-width: 576px) {
+      .product-slider__packshot-bg--camel {
+        height: 100%;
+        padding: 20px 15px 10px; } }
 
 .product-slider__image {
   text-align: center; }
@@ -570,11 +578,10 @@ span.ld-red {
   font-size: 16px;
   padding: 25px 15px 25px;
   min-height: 0;
-  height: 100%;
-  flex: 1 0 200px; }
-
-.product-slider__packshot-bg--camel {
-  height: auto; }
+  height: 100%; }
+  @media only screen and (min-width: 576px) {
+    .product-slider__desc--camel {
+      flex: 1 0 200px; } }
 
 .product-slider__image--smaller img {
   max-width: 90% !important; }
